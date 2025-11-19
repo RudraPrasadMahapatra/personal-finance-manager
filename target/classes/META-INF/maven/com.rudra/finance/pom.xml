@@ -48,7 +48,12 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-
+		
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-devtools</artifactId>
+		    <scope>runtime</scope>
+		</dependency>
 		<!-- Added H2 so an embedded datasource is available during local development -->
 		<dependency>
 			<groupId>com.h2database</groupId>
